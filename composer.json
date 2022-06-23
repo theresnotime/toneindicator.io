@@ -1,6 +1,7 @@
 {
     "name": "theresnotime/toneindicator.io",
     "type": "project",
+    "description": "Tone indicators",
     "license": "MIT",
     "autoload": {
         "psr-4": {
