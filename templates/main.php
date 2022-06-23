@@ -23,11 +23,10 @@
             </p>
             <?php else: ?>
             <h1 class="display-1 pb-4"><?= $this->e($indicator) ?></h1>
-            <p class="lead">This <a
+            <p>This <a
                     href="https://web.archive.org/web/20220622143433/https://toneindicators.carrd.co/#introduction"
-                    target="_blank">tone indicator</a> means: <i><?= $this->e(
-                        $description
-                    ) ?></i></p>
+                    target="_blank">tone indicator</a> means</p>
+            <p class="lead"><i><?= $this->e($description) ?></i></p>
             <?php endif; ?>
         </main>
     </div>
