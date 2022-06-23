@@ -1,0 +1,17 @@
+{
+    "name": "theresnotime/toneindicator.io",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ToneIndicator\\": "src/ToneIndicator/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TheresNoTime",
+            "email": "sam@theresnotime.co.uk"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,7 @@
+# WIP
+public/
+src/
+
+vendor/
+.vscode/
+node_modules/
