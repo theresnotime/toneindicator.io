@@ -25,9 +25,9 @@
             <h1 class="display-1 pb-4"><?= $this->e($indicator) ?></h1>
             <p class="lead">This <a
                     href="https://web.archive.org/web/20220622143433/https://toneindicators.carrd.co/#introduction"
-                    target="_blank">Tone Indicator</a> means: <?= $this->e(
+                    target="_blank">tone indicator</a> means: <i><?= $this->e(
                         $description
-                    ) ?></p>
+                    ) ?></i></p>
             <?php endif; ?>
         </main>
     </div>
