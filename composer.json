@@ -13,5 +13,7 @@
             "email": "sam@theresnotime.co.uk"
         }
     ],
-    "require": {}
+    "require": {
+        "league/plates": "^3.4"
+    }
 }

@@ -8,6 +8,13 @@
     "author": "TheresNoTime",
     "license": "MIT",
     "devDependencies": {
+        "@prettier/plugin-php": "^0.18.8",
         "prettier": "^2.7.1"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
     }
 }
