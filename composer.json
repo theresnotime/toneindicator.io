@@ -15,5 +15,11 @@
     ],
     "require": {
         "league/plates": "^3.4"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.23"
+    },
+    "scripts": {
+        "test": "vendor/bin/psalm --show-info=true"
     }
 }

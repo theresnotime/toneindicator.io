@@ -39,7 +39,7 @@ class Api
         $this->indicators = new Indicators();
     }
 
-    public function execute()
+    public function execute(): void
     {
         if ($this->haveParams()) {
             $this->action = $this->getAction();
@@ -68,7 +68,7 @@ class Api
         }
     }
 
-    public function getDefinition()
+    public function getDefinition(): void
     {
         if ($this->indicators->exists($this->indicator)) {
             $indicator = new Indicator($this->indicator);
@@ -83,12 +83,12 @@ class Api
         }
     }
 
-    public function getIndicators()
+    public function getIndicators(): void
     {
         $this->returnJson($this->indicators, true);
     }
 
-    public function haveParams()
+    public function haveParams(): bool
     {
         if (isset($_GET['action'], $_GET['indicator'])) {
             return true;
@@ -115,7 +115,7 @@ class Api
         }
     }
 
-    public function validAction(string $action)
+    public function validAction(string $action): bool
     {
         if (in_array($action, $this->validActions)) {
             return true;
@@ -124,7 +124,7 @@ class Api
         }
     }
 
-    public function returnJson(array|object $data, bool $success)
+    public function returnJson(array|object $data, bool $success): void
     {
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode([

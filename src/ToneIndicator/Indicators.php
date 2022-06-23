@@ -48,7 +48,7 @@ class Indicators
         }
     }
 
-    public function exists(string $indicator)
+    public function exists(string $indicator): bool
     {
         if (key_exists($indicator, $this->indicators)) {
             return true;
