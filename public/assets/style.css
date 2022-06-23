@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+
+* {
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
 .vertical-center {
     min-height: 100%;
     min-height: 100vh;
