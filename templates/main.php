@@ -37,8 +37,8 @@
             <?php if ($main): ?>
             <h1 class="display-1 pb-4">Tone Indicators</h1>
             <p class="lead">Append a <a href="/what.html">Tone Indicator</a> to this URL to view its definition.</p>
-            <p> ~ ~ ~ ~ ~ </p>
-            <p><small>For example, <a href="https://toneindicator.io/j" target="_blank">https://toneindicator.io/j</a> will link to the <code>/j</code> tone indicator</small></p>
+            <p>For example, <a href="https://toneindicator.io/j" target="_blank">https://toneindicator.io/j</a> will link to the <code>/j</code> tone indicator</p>
+            <p class="text-white-50" style="padding-top: 2.5rem;" ><small><a href="https://github.com/theresnotime/toneindicator.io" target="_blank">GitHub</a> <br/> <span title="Trans rights are human rights!">🏳️‍🌈🏳️‍⚧️</span></small></p>
             <?php else: ?>
             <h1 class="display-1 pb-4"><?= $this->e($indicator) ?></h1>
             <p>This <a href="/what.html">tone indicator</a> means</p>
