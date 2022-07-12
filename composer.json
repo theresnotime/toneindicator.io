@@ -18,9 +18,12 @@
         "league/plates": "^3.4"
     },
     "require-dev": {
-        "vimeo/psalm": "^4.23"
+        "vimeo/psalm": "^4.23",
+        "overtrue/phplint": "^4.2"
     },
     "scripts": {
-        "test": "vendor/bin/psalm --show-info=true"
+        "test": "composer run lint && composer run psalm",
+        "lint": "@php vendor/bin/phplint",
+        "psalm": "@php vendor/bin/psalm --show-info=true"
     }
 }
