@@ -1,8 +1,8 @@
 path: ./
 cache: build/phplint.cache
 extensions:
-  - php
+    - php
 exclude:
-  - vendor
+    - vendor
 warning: true
 memory_limit: -1
