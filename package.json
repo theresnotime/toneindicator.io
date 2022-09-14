@@ -8,7 +8,7 @@
     "author": "TheresNoTime",
     "license": "MIT",
     "devDependencies": {
-        "@prettier/plugin-php": "^0.18.9",
+        "@prettier/plugin-php": "^0.19.1",
         "prettier": "^2.7.1"
     },
     "prettier": {
