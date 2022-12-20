@@ -9,7 +9,7 @@
     "license": "MIT",
     "devDependencies": {
         "@prettier/plugin-php": "^0.19.2",
-        "prettier": "^2.7.1"
+        "prettier": "^2.8.1"
     },
     "prettier": {
         "trailingComma": "es5",
