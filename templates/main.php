@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= $this->e($title) ?></title>
+    <?php if ($main): ?>
     <meta name="description" content="Easily link to tone indicators and their meanings">
     <meta property="og:url" content="https://toneindicator.io">
     <meta property="og:type" content="website">
@@ -16,6 +17,29 @@
     <meta property="twitter:url" content="https://toneindicator.io">
     <meta name="twitter:title" content="toneindicator.io">
     <meta name="twitter:description" content="Easily link to tone indicators and their meanings">
+    <?php else: ?>
+    <meta name="description" content="<?= $this->e(
+        $indicator
+    ) ?> means <?= $this->e($description) ?>">
+    <meta property="og:url" content="https://toneindicator.io<?= $this->e(
+        $indicator
+    ) ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<?= $this->e($indicator) ?>">
+    <meta property="og:description" content="<?= $this->e(
+        $indicator
+    ) ?> means <?= $this->e($description) ?>">
+    <meta property="og:image" content="https://toneindicator.io/assets/tone_lh.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="toneindicator.io">
+    <meta property="twitter:url" content="https://toneindicator.io<?= $this->e(
+        $indicator
+    ) ?>">
+    <meta name="twitter:title" content="<?= $this->e($indicator) ?>">
+    <meta name="twitter:description" content="<?= $this->e(
+        $indicator
+    ) ?> means <?= $this->e($description) ?>">
+    <?php endif; ?>
     <meta name="twitter:image" content="https://toneindicator.io/assets/tone_lh.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
