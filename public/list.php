@@ -1,3 +1,8 @@
+<?php
+declare(strict_types=1);
+require_once __DIR__ . '/../vendor/autoload.php';
+$indicators = (new ToneIndicator\Indicators())->getIndicators();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -45,52 +50,29 @@
     <body class="d-flex h-100 text-center text-white bg-dark vertical-center">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <main class="px-3">
-                <h1 class="display-1 pb-4">What are tone indicators?</h1>
+                <h1 class="display-1 pb-4">Supported tone indicators</h1>
                 <div class="w-full container-lg mx-auto flex-column">
-                    <p class="lead w-optimal-reading mx-auto">
-                        Tone indicators are shorthand for words used to convey
-                        tone. Tone can be defined as "a quality in the voice
-                        that expresses the speaker's feelings or thoughts".
-                    </p>
-                    <p class="w-optimal-reading mx-auto">
-                        Some examples of common tone indicators are
-                        <a title="joking" href="/j" target="_blank">/j</a>,
-                        <a title="serious" href="/srs" target="_blank">/srs</a>
-                        and
-                        <a title="sarcastic" href="/s" target="_blank">/s</a>.
-                        Though there are <a href="/list.php">many others</a>,
-                        these are the ones that are most commonly used and
-                        needed for clarity of communication.
-                    </p>
-                    <p class="w-optimal-reading mx-auto">
-                        In
+                    <p>
+                        As defined in
                         <a
-                            class="link-primary"
-                            href="https://en.wikipedia.org/wiki/Albert_Mehrabian"
-                            target="_blank"
-                            >Albert Mehrabian</a
-                        >'s 1981 study
-                        <i
-                            >Silent messages : implicit communication of
-                            emotions and attitudes</i
-                        >, he found that 93% of liking is from non-verbal cues.
-                        38% is due to tone of voice, while an additional 55% is
-                        attributed to body language.<sup
-                            ><a
-                                href="https://archive.org/details/silentmessagesim00mehr"
-                                target="_blank"
-                                >[1]</a
-                            ></sup
+                            href="https://github.com/theresnotime/toneindicator.io/blob/main/indicators.json"
+                            >indicators.json</a
                         >
                     </p>
-                    <p class="w-optimal-reading mx-auto">
-                        Inferring meaning, tone and intent of a textual message
-                        over the internet can be difficult at times, especially
-                        in heated situations or when the wording could easily
-                        mean many things — the use of a tone indicator can help
-                        clarify your intentions, and defuse any
-                        misunderstandings.
+
+                    <hr />
+
+                    <?php foreach ($indicators as $indicator => $definition) {
+                        echo '
+                    <p>
+                        <strong>/' .
+                            $indicator .
+                            '</strong>: ' .
+                            $definition .
+                            '
                     </p>
+                    ';
+                    } ?>
 
                     <hr />
 

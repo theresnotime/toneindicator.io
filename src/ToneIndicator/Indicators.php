@@ -65,4 +65,9 @@ class Indicators
             return false;
         }
     }
+
+    public function getIndicators()
+    {
+        return $this->indicators;
+    }
 }

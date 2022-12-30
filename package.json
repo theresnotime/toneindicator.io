@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "Tone indicators",
     "scripts": {
-        "test": "npx prettier -c ."
+        "test": "npx prettier -c .",
+        "fix": "npx prettier --write ."
     },
     "author": "TheresNoTime",
     "license": "MIT",
