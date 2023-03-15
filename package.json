@@ -9,7 +9,7 @@
     "author": "TheresNoTime",
     "license": "MIT",
     "devDependencies": {
-        "@prettier/plugin-php": "^0.19.2",
+        "@prettier/plugin-php": "^0.19.4",
         "prettier": "^2.8.1"
     },
     "prettier": {
