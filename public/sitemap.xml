@@ -5,49 +5,227 @@
 
     <url>
         <loc>https://toneindicator.io/</loc>
-        <lastmod>2022-07-12T15:40:13+00:00</lastmod>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
         <loc>https://toneindicator.io/what.html</loc>
-        <lastmod>2022-07-12T15:18:38+00:00</lastmod>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://toneindicator.io/j</loc>
-        <lastmod>2022-07-12T15:40:13+00:00</lastmod>
+        <loc>https://toneindicator.io/list.html</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://toneindicator.io/srs</loc>
-        <lastmod>2022-07-12T15:40:13+00:00</lastmod>
-        <priority>0.5</priority>
+        <loc>https://toneindicator.io/j</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/hj</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://toneindicator.io/s</loc>
-        <lastmod>2022-07-12T15:40:13+00:00</lastmod>
-        <priority>0.5</priority>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://toneindicator.io/gen</loc>
-        <lastmod>2022-07-12T15:40:13+00:00</lastmod>
-        <priority>0.4</priority>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://toneindicator.io/g</loc>
-        <lastmod>2022-07-12T15:40:13+00:00</lastmod>
-        <priority>0.4</priority>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/srs</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nsrs</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://toneindicator.io/pos</loc>
-        <lastmod>2022-07-12T15:40:13+00:00</lastmod>
-        <priority>0.4</priority>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/pc</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/neu</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://toneindicator.io/neg</loc>
-        <lastmod>2022-07-12T15:40:13+00:00</lastmod>
-        <priority>0.4</priority>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
-
-
+    <url>
+        <loc>https://toneindicator.io/nc</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/p</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/r</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/c</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/l</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/ly</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/lh</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nm</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/lu</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nbh</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nsb</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/sx</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/x</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nsx</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nx</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/rh</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/rt</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/t</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/ij</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/m</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/li</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/hyp</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/f</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/th</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/cb</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nf</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nay</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/ay</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/nbr</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/a</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://toneindicator.io/ex</loc>
+        <lastmod>2023-05-22T15:40:13+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
 </urlset>

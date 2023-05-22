@@ -65,9 +65,11 @@ $indicators = (new ToneIndicator\Indicators())->getIndicators();
                     <?php foreach ($indicators as $indicator => $definition) {
                         echo '
                     <p>
-                        <strong>/' .
+                        <strong><a href="/' .
                             $indicator .
-                            '</strong>: ' .
+                            '">/' .
+                            $indicator .
+                            '</a></strong>: ' .
                             $definition .
                             '
                     </p>
